@@ -56,7 +56,7 @@
         anchor.innerText = '#あなたのいいところ をツイートする';
         tweetDivided.appendChild(anchor);
 
-        twttr.widget.load();
+        twttr.widgets.load();
     };
 
     userNameInput.onkeydown = (event) => {
